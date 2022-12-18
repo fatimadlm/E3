@@ -1,0 +1,10 @@
+Respuesta[2]:
+rand_c:Es una función que genera un número random con la semilla que la pasamos.En este caso,creamos un aleatorio con esta funcion para que nos de un numero entre 0 y 9, que será lo que tardara cada coche en llegar.
+Respuesta[3]:
+Tenemos que asegurarnos de que los hilos han terminado porque sino el programa terminará según termine el main,entonces no realizará todo lo que queremos que haga.
+Respuesta[4.1]:
+Si,en este caso no tenemos ningún proceso que se vaya a sobreponer a otro dando errores.Ya que el padre llamará al hijo este realizara su funcion y dara el valor.
+Respuesta[4.2c]:
+Si,nos pueden dar condiciones de carrera yaque tenemos variables compartidas al mismo tiempo.Para arreglar estos problemas usamos la sincronización, donde bloqueamos y desbloqueamos los procesos para que no ocurran condiciones de carrera.
+Rand_c:Si,puede producir errores cuando no hay ningun tipo de control sobre esta,por ejemplo debemos controlar la estructura que le pasamos,esta debe ser un int,también que los valores se adecuen a los valores númericos que deben ya que no puede darnos un valor negativo.
+
